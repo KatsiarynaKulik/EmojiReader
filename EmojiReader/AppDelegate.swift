@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  EmojiReader
 //
-//  Created by Екатерина  on 23.02.23.
+//  Created by Katsiaryna  on 23.02.23.
 //
 
 import UIKit
