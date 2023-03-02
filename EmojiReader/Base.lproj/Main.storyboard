@@ -65,6 +65,7 @@
                                     <outlet property="descriptionalLabel" destination="abM-f2-ds5" id="RlZ-HI-VFy"/>
                                     <outlet property="emojiLabel" destination="Wmk-dt-wKK" id="36e-U0-hyu"/>
                                     <outlet property="nameLabel" destination="B1S-tC-Vpe" id="Sun-Cx-h3c"/>
+                                    <segue destination="lJ3-FZ-PzQ" kind="show" identifier="editEmoji" id="kTW-XA-dmv"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -247,6 +248,9 @@
             <point key="canvasLocation" x="1332.06106870229" y="-55.633802816901408"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="kTW-XA-dmv"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
