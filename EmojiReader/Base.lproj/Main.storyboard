@@ -65,7 +65,7 @@
                                     <outlet property="descriptionalLabel" destination="abM-f2-ds5" id="RlZ-HI-VFy"/>
                                     <outlet property="emojiLabel" destination="Wmk-dt-wKK" id="36e-U0-hyu"/>
                                     <outlet property="nameLabel" destination="B1S-tC-Vpe" id="Sun-Cx-h3c"/>
-                                    <segue destination="lJ3-FZ-PzQ" kind="show" identifier="editEmoji" id="kTW-XA-dmv"/>
+                                    <segue destination="APE-Za-AbU" kind="showDetail" id="cRE-Oy-KQw"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -78,7 +78,7 @@
                     <navigationItem key="navigationItem" id="G9D-aV-SUc">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="cbC-ll-ti3">
                             <connections>
-                                <segue destination="lJ3-FZ-PzQ" kind="show" id="KIK-q5-gx9"/>
+                                <segue destination="APE-Za-AbU" kind="showDetail" id="w5O-EE-XWC"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -92,7 +92,7 @@
             <objects>
                 <tableViewController id="APE-Za-AbU" customClass="NewEmojiTableViewController" customModule="EmojiReader" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="W0w-iJ-3sy">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <sections>
@@ -208,7 +208,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DSb-NO-WfZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="t1f-VI-81C" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2252.6717557251909" y="56.338028169014088"/>
+            <point key="canvasLocation" x="1422" y="-52"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ern-d2-GdO">
@@ -228,28 +228,9 @@
             </objects>
             <point key="canvasLocation" x="-400.76335877862596" y="-62.676056338028175"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="9wZ-nK-iig">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lJ3-FZ-PzQ" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="ZhT-dU-EeM"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="No5-Sn-6YV">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="APE-Za-AbU" kind="relationship" relationship="rootViewController" id="jTv-eN-hLI"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CgL-Yg-95y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1332.06106870229" y="-55.633802816901408"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kTW-XA-dmv"/>
+        <segue reference="w5O-EE-XWC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">
