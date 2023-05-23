@@ -2,7 +2,8 @@
 //  NewEmojiTableViewController.swift
 //  EmojiReader
 //
-//  Created by Екатерина  on 28.02.23.
+//  Created by Katsiaryna Kulik  on 28.02.23.
+//  Copyright © 2023 Katsiaryna Kulik. All rights reserved.
 //
 
 import UIKit
